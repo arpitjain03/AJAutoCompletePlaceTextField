@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D158A6296231813B4881EB /* Pods_AJAutoCompletePlaceTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB4D674C6B837574E7C9476 /* Pods_AJAutoCompletePlaceTextField.framework */; };
+		A9ACABA11F2B1AE100EC836C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACABA01F2B1AE100EC836C /* AppDelegate.swift */; };
+		A9ACABA31F2B1AE100EC836C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACABA21F2B1AE100EC836C /* ViewController.swift */; };
+		A9ACABA61F2B1AE100EC836C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ACABA41F2B1AE100EC836C /* Main.storyboard */; };
+		A9ACABA81F2B1AE100EC836C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9ACABA71F2B1AE100EC836C /* Assets.xcassets */; };
+		A9ACABAB1F2B1AE100EC836C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ACABA91F2B1AE100EC836C /* LaunchScreen.storyboard */; };
+		A9ACABB31F2B1C6700EC836C /* AJAutocompletePlaceTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACABB21F2B1C6700EC836C /* AJAutocompletePlaceTextfield.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CB4D674C6B837574E7C9476 /* Pods_AJAutoCompletePlaceTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJAutoCompletePlaceTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ACAB9D1F2B1AE100EC836C /* AJAutoCompletePlaceTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJAutoCompletePlaceTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ACABA01F2B1AE100EC836C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9ACABA21F2B1AE100EC836C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9ACABA51F2B1AE100EC836C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9ACABA71F2B1AE100EC836C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9ACABAA1F2B1AE100EC836C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9ACABAC1F2B1AE100EC836C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9ACABB21F2B1C6700EC836C /* AJAutocompletePlaceTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJAutocompletePlaceTextfield.swift; sourceTree = "<group>"; };
+		D37B03E70A04CD901F3A6A50 /* Pods-AJAutoCompletePlaceTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJAutoCompletePlaceTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		F4CC1B2BF05BFADB963A45AA /* Pods-AJAutoCompletePlaceTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJAutoCompletePlaceTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9ACAB9A1F2B1AE100EC836C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D158A6296231813B4881EB /* Pods_AJAutoCompletePlaceTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9ACAB941F2B1AE000EC836C = {
+			isa = PBXGroup;
+			children = (
+				A9ACAB9F1F2B1AE100EC836C /* AJAutoCompletePlaceTextField */,
+				A9ACAB9E1F2B1AE100EC836C /* Products */,
+				EEEBD6575175CE0296A8FD06 /* Pods */,
+				C9BD2B9B8C70DAAD289A928C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9ACAB9E1F2B1AE100EC836C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9ACAB9D1F2B1AE100EC836C /* AJAutoCompletePlaceTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9ACAB9F1F2B1AE100EC836C /* AJAutoCompletePlaceTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A9ACABA01F2B1AE100EC836C /* AppDelegate.swift */,
+				A9ACABA21F2B1AE100EC836C /* ViewController.swift */,
+				A9ACABB21F2B1C6700EC836C /* AJAutocompletePlaceTextfield.swift */,
+				A9ACABA41F2B1AE100EC836C /* Main.storyboard */,
+				A9ACABA71F2B1AE100EC836C /* Assets.xcassets */,
+				A9ACABA91F2B1AE100EC836C /* LaunchScreen.storyboard */,
+				A9ACABAC1F2B1AE100EC836C /* Info.plist */,
+			);
+			path = AJAutoCompletePlaceTextField;
+			sourceTree = "<group>";
+		};
+		C9BD2B9B8C70DAAD289A928C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4D674C6B837574E7C9476 /* Pods_AJAutoCompletePlaceTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEEBD6575175CE0296A8FD06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D37B03E70A04CD901F3A6A50 /* Pods-AJAutoCompletePlaceTextField.debug.xcconfig */,
+				F4CC1B2BF05BFADB963A45AA /* Pods-AJAutoCompletePlaceTextField.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9ACAB9C1F2B1AE100EC836C /* AJAutoCompletePlaceTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ACABAF1F2B1AE100EC836C /* Build configuration list for PBXNativeTarget "AJAutoCompletePlaceTextField" */;
+			buildPhases = (
+				6C81C6B9FFC3E8F0175215D2 /* [CP] Check Pods Manifest.lock */,
+				A9ACAB991F2B1AE100EC836C /* Sources */,
+				A9ACAB9A1F2B1AE100EC836C /* Frameworks */,
+				A9ACAB9B1F2B1AE100EC836C /* Resources */,
+				EB0C5CC6CF9DA11DE43A2A96 /* [CP] Embed Pods Frameworks */,
+				797DDA458F64DDE5EDFBC799 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJAutoCompletePlaceTextField;
+			productName = AJAutoCompletePlaceTextField;
+			productReference = A9ACAB9D1F2B1AE100EC836C /* AJAutoCompletePlaceTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9ACAB951F2B1AE000EC836C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = indianic;
+				TargetAttributes = {
+					A9ACAB9C1F2B1AE100EC836C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A9ACAB981F2B1AE000EC836C /* Build configuration list for PBXProject "AJAutoCompletePlaceTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9ACAB941F2B1AE000EC836C;
+			productRefGroup = A9ACAB9E1F2B1AE100EC836C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9ACAB9C1F2B1AE100EC836C /* AJAutoCompletePlaceTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9ACAB9B1F2B1AE100EC836C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ACABAB1F2B1AE100EC836C /* LaunchScreen.storyboard in Resources */,
+				A9ACABA81F2B1AE100EC836C /* Assets.xcassets in Resources */,
+				A9ACABA61F2B1AE100EC836C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C81C6B9FFC3E8F0175215D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		797DDA458F64DDE5EDFBC799 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0C5CC6CF9DA11DE43A2A96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9ACAB991F2B1AE100EC836C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ACABB31F2B1C6700EC836C /* AJAutocompletePlaceTextfield.swift in Sources */,
+				A9ACABA31F2B1AE100EC836C /* ViewController.swift in Sources */,
+				A9ACABA11F2B1AE100EC836C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9ACABA41F2B1AE100EC836C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ACABA51F2B1AE100EC836C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9ACABA91F2B1AE100EC836C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ACABAA1F2B1AE100EC836C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9ACABAD1F2B1AE100EC836C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9ACABAE1F2B1AE100EC836C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9ACABB01F2B1AE100EC836C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37B03E70A04CD901F3A6A50 /* Pods-AJAutoCompletePlaceTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AJAutoCompletePlaceTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajautocompleteplacetextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A9ACABB11F2B1AE100EC836C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CC1B2BF05BFADB963A45AA /* Pods-AJAutoCompletePlaceTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AJAutoCompletePlaceTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajautocompleteplacetextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9ACAB981F2B1AE000EC836C /* Build configuration list for PBXProject "AJAutoCompletePlaceTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ACABAD1F2B1AE100EC836C /* Debug */,
+				A9ACABAE1F2B1AE100EC836C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ACABAF1F2B1AE100EC836C /* Build configuration list for PBXNativeTarget "AJAutoCompletePlaceTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ACABB01F2B1AE100EC836C /* Debug */,
+				A9ACABB11F2B1AE100EC836C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9ACAB951F2B1AE000EC836C /* Project object */;
+}
