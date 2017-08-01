@@ -1,9 +1,4 @@
 * linguist-vendored
-*.h linguist-language=Swift
-*.m linguist-language=Swift
-*.C linguist-language=Swift
-*.mm linguist-language=Swift
-
-
+*.swift linguist-vendored=false
 
 
