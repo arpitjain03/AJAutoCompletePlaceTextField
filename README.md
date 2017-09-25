@@ -8,8 +8,8 @@ A simple subclass of UITextField for getting auto complete place search from Goo
 Just Drag and Drop AJAutoCompletePlaceTextField in your project.
 
 ## Requirements
-1. Add Google Places SDK using pod install
-2. Get an API Key from  [GooglePlacesAPIConsole](https://developers.google.com/places/ios-api/start) 
+1. Install Google Places SDK using `CocoaPods`.
+2. Refer [GooglePlacesAPIConsole](https://developers.google.com/places/ios-api/start) and get an API key.
 
 ## Usage
 To see it in action clone the repo install pods and run the sample project
@@ -26,13 +26,27 @@ objAJAutoCompletePlaceTextField.selectedPlace = { place , indexPath in
 ```
 objAJAutoCompletePlaceTextField.highLightTypeTextedEnabled = true
 ```
-5. For customizing Highlighted TYpe Text Attributes use
+5. For setting maximum number of data count in table use
+```
+objAJAutoCompletePlaceTextField.maxAutoCompleteDataCount = 5
+```
+
+6. For customizing Highlighted Type Text Attributes use
 ```
 objAJAutoCompletePlaceTextField.highLightTypeTextedAttributes = [NSForegroundColorAttributeName:UIColor.black]
 objAJAutoCompletePlaceTextField.highLightTypeTextedAttributes![NSFontAttributeName] = UIFont.boldSystemFont(ofSize: 12)
 ```
-6. For customizing Text Font and Size in Normal mode use
+7. For customizing Text Font and Size in Normal mode use
 ```
 objAJAutoCompletePlaceTextField.autoCompleteTextFont = UIFont.systemFont(ofSize: 12)
 objAJAutoCompletePlaceTextField.autoCompleteTextColor = UIColor.black
 ```
+
+## License
+
+`AJAutoCompletePlaceTextField` is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+
+## Author
+For any queries and suggestions reach out at arpit.cor@gmail.com
+
+
