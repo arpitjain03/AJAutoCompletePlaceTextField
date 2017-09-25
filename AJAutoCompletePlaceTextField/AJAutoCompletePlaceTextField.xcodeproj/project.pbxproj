@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19D158A6296231813B4881EB /* Pods_AJAutoCompletePlaceTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB4D674C6B837574E7C9476 /* Pods_AJAutoCompletePlaceTextField.framework */; };
 		A9ACABA11F2B1AE100EC836C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACABA01F2B1AE100EC836C /* AppDelegate.swift */; };
 		A9ACABA31F2B1AE100EC836C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACABA21F2B1AE100EC836C /* ViewController.swift */; };
 		A9ACABA61F2B1AE100EC836C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ACABA41F2B1AE100EC836C /* Main.storyboard */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CB4D674C6B837574E7C9476 /* Pods_AJAutoCompletePlaceTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJAutoCompletePlaceTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9ACAB9D1F2B1AE100EC836C /* AJAutoCompletePlaceTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJAutoCompletePlaceTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9ACABA01F2B1AE100EC836C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9ACABA21F2B1AE100EC836C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +24,6 @@
 		A9ACABAA1F2B1AE100EC836C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9ACABAC1F2B1AE100EC836C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9ACABB21F2B1C6700EC836C /* AJAutocompletePlaceTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJAutocompletePlaceTextfield.swift; sourceTree = "<group>"; };
-		D37B03E70A04CD901F3A6A50 /* Pods-AJAutoCompletePlaceTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJAutoCompletePlaceTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField.debug.xcconfig"; sourceTree = "<group>"; };
-		F4CC1B2BF05BFADB963A45AA /* Pods-AJAutoCompletePlaceTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJAutoCompletePlaceTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D158A6296231813B4881EB /* Pods_AJAutoCompletePlaceTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,8 +42,6 @@
 			children = (
 				A9ACAB9F1F2B1AE100EC836C /* AJAutoCompletePlaceTextField */,
 				A9ACAB9E1F2B1AE100EC836C /* Products */,
-				EEEBD6575175CE0296A8FD06 /* Pods */,
-				C9BD2B9B8C70DAAD289A928C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,23 +67,6 @@
 			path = AJAutoCompletePlaceTextField;
 			sourceTree = "<group>";
 		};
-		C9BD2B9B8C70DAAD289A928C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7CB4D674C6B837574E7C9476 /* Pods_AJAutoCompletePlaceTextField.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EEEBD6575175CE0296A8FD06 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D37B03E70A04CD901F3A6A50 /* Pods-AJAutoCompletePlaceTextField.debug.xcconfig */,
-				F4CC1B2BF05BFADB963A45AA /* Pods-AJAutoCompletePlaceTextField.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,12 +74,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9ACABAF1F2B1AE100EC836C /* Build configuration list for PBXNativeTarget "AJAutoCompletePlaceTextField" */;
 			buildPhases = (
-				6C81C6B9FFC3E8F0175215D2 /* [CP] Check Pods Manifest.lock */,
 				A9ACAB991F2B1AE100EC836C /* Sources */,
 				A9ACAB9A1F2B1AE100EC836C /* Frameworks */,
 				A9ACAB9B1F2B1AE100EC836C /* Resources */,
-				EB0C5CC6CF9DA11DE43A2A96 /* [CP] Embed Pods Frameworks */,
-				797DDA458F64DDE5EDFBC799 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,54 +133,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6C81C6B9FFC3E8F0175215D2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		797DDA458F64DDE5EDFBC799 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB0C5CC6CF9DA11DE43A2A96 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJAutoCompletePlaceTextField/Pods-AJAutoCompletePlaceTextField-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9ACAB991F2B1AE100EC836C /* Sources */ = {
@@ -337,10 +262,10 @@
 		};
 		A9ACABB01F2B1AE100EC836C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D37B03E70A04CD901F3A6A50 /* Pods-AJAutoCompletePlaceTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AJAutoCompletePlaceTextField/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
@@ -355,10 +280,10 @@
 		};
 		A9ACABB11F2B1AE100EC836C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4CC1B2BF05BFADB963A45AA /* Pods-AJAutoCompletePlaceTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AJAutoCompletePlaceTextField/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
