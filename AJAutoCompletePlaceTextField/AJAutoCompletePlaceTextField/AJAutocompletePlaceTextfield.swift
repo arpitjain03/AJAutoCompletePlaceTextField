@@ -54,13 +54,7 @@ class AJAutocompletePlaceTextfield: UITextField , UITextFieldDelegate {
     open var autoCompleteTableMargin = CGFloat()
 
     //MARK: - INIT FUNCTIONS
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        commonInit()
-        setupAutocompleteTable(superview!)
-    }
-    
+        
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -71,6 +65,12 @@ class AJAutocompletePlaceTextfield: UITextField , UITextFieldDelegate {
         setupAutocompleteTable(superview!)
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        commonInit()
+        setupAutocompleteTable(superview!)
+        
+    }
     open override func willMove(toSuperview newSuperview: UIView?) {
         super.willMove(toSuperview: newSuperview)
         commonInit()
